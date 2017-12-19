@@ -13,10 +13,10 @@ var burger = {
     });
   },
   update: function(objColVals, condition, cb) {
-    orm.update("cats", objColVals, condition, function(res) {
+    orm.update("burgers", objColVals, condition, function(res) {
       cb(res);
     });
   }
 };
 
-module.exports = allBurgers;
+module.exports = burger;
