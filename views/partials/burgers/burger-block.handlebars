@@ -1,8 +1,10 @@
 <li>
-	{{name}}
+	{{id}}. {{burger_name}}
 
-	<button class="change-devoured" data-id="{{id}}" data-newsleep="{{sleep}}">
-		{{#if devoured}}all done!{{else}}eat!{{/if}}
-	</button>
+	{{#unless devoured}}
+		<button class="change-devoured" data-id="{{id}}" data-newsleep="{{sleep}}">
+			<img id="devouredButtonPic" src="/assets/images/devoured.png">eat!
+		</button>
+	{{/unless}}
 
 </li>

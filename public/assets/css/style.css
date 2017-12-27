@@ -1,36 +1,51 @@
-ul {
-	list-style-type: none;
-}
-li {
-  padding: 5px;
-  margin: 5px;
-  background: white;
-  border: 2px solid gray;
+/*title--------------------------------*/
+h1 {
+	text-align: center;
 }
 
+/*form---------------------------------*/
 .label {
   font-weight: bold;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
+.form-group {
+	margin: 10px 0px 30px 0px;
+ 	text-align: center;
 }
 
-.form-group {
-  margin-bottom: 5px;
-}
 
 /*coluumns-----------------------------*/
+.mainContainer {
+	width: 960px;
+	margin: 0 auto;
+}
+
 .leftCollumn,
 .rightCollumn {
 	float: left;
-	width: 40%;
+	width: 50%;
     text-align: center;
 }
 
 #burgerPic,
 #devouredPic {
 	width: 50%;
+}
+
+ul {
+	list-style-type: none;
+	width: 100%;
+    padding: 0;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: white;
+  border: 1px solid gray;
+}
+
+#devouredButtonPic {
+	width: 15px;
+	padding-right: 10px;
 }
