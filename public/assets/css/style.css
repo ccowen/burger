@@ -1,0 +1,36 @@
+ul {
+	list-style-type: none;
+}
+li {
+  padding: 5px;
+  margin: 5px;
+  background: white;
+  border: 2px solid gray;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+/*coluumns-----------------------------*/
+.leftCollumn,
+.rightCollumn {
+	float: left;
+	width: 40%;
+    text-align: center;
+}
+
+#burgerPic,
+#devouredPic {
+	width: 50%;
+}
