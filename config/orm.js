@@ -2,6 +2,16 @@
 // require the connection setup in the connection file
 var connection = require('./connection.js');
 
+function printQuestionMarks(num) {
+  var arr = [];
+
+  for (var i = 0; i < num; i++) {
+    arr.push("?");
+  }
+
+  return arr.toString();
+}
+
 // create orm
 var orm = {
   all: function(tableInput, cb) {
