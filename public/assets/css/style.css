@@ -1,6 +1,7 @@
 /*title--------------------------------*/
 h1 {
 	text-align: center;
+	margin-bottom: 35px;
 }
 
 /*form---------------------------------*/
@@ -8,11 +9,9 @@ h1 {
   font-weight: bold;
 }
 
-.form-group {
-	margin: 10px 0px 30px 0px;
- 	text-align: center;
+.create-form {
+	margin-top: 75px;
 }
-
 
 /*coluumns-----------------------------*/
 .mainContainer {
@@ -23,8 +22,9 @@ h1 {
 .leftCollumn,
 .rightCollumn {
 	float: left;
-	width: 50%;
+	width: 48%;
     text-align: center;
+    margin: 1%;
 }
 
 #burgerPic,
@@ -32,20 +32,6 @@ h1 {
 	width: 50%;
 }
 
-ul {
-	list-style-type: none;
-	width: 100%;
-    padding: 0;
-}
-
-li {
-  padding: 5px;
-  margin: 5px;
-  background: white;
-  border: 1px solid gray;
-}
-
-#devouredButtonPic {
-	width: 25px;
-	padding-right: 5px;
+.collection {
+	margin-top: 20px;
 }

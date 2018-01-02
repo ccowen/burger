@@ -1,8 +1,14 @@
-<li>
+<li class="collection-item">
+
 	{{id}}. {{burger_name}}
 
-	<button class="change-devoured" data-id="{{id}}" data-newsleep="{{sleep}}">
-		{{#if devoured}}all done!{{else}}eat!{{/if}}
-	</button>
+
+	{{#unless devoured}}
+	
+		<a class="change-devoured  secondary-content" data-id="{{id}}">
+			<i class="material-icons">eat!</i>				
+		</a>
+
+	{{/unless}}
 
 </li>

@@ -1,16 +1,4 @@
-<h1>Eating Burgers</h1>
-
-<form class="create-form">
-
-  <div class="form-group">
-    <label for="burgerDescription">New Burger Description:</label>
-
-    <input type="text" id="burgerDescription" name="name">
-
-    <button type="submit">Add Burger</button>
-  </div>
-
-</form>
+<h1>Burger Tracker</h1>
 
 <div class="mainContainer">
 
@@ -18,7 +6,9 @@
 
     <img id="burgerPic" src="/assets/images/burger.png">
 
-    <ul>
+    <h5>Ready to eat!</h5>
+
+    <ul class="collection">
       {{#each burgers}}
         {{#unless devoured}}
           {{> burgers/burger-block devoured=false}}
@@ -31,7 +21,9 @@
 
     <img id="devouredPic" src="/assets/images/devoured.png">
 
-    <ul>
+    <h5>Devoured!</h5>
+
+    <ul class="collection">
       {{#each burgers}}
         {{#if devoured}}
           {{> burgers/burger-block devoured=true}}
@@ -40,6 +32,29 @@
     </ul>
   </div>
 
-</div>
+  <div class="row">
+
+    <form class="create-form col s12">
+
+      <div class="row">
+
+        <div class="input-field col s2"></div>
+
+        <div class="input-field col s6">
+
+          <input id="burgerDescription" type="text" class="validate">
+
+        </div>
+
+        <div class="input-field col s3">
+          <button class="btn waves-effect waves-light" type="submit">Add Burger
+          </button>
+        </div>
+
+      </div>
+
+    </form>
+
+  </div>
 
 </div>
