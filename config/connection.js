@@ -8,7 +8,7 @@ if (process.env.JAWSDB_URL) {
     port: 8000,
     host: "localhost",
     user: "gbhna7b95albqv5c",
-    password: "",
+    password: "n2c3fl07q19uam3i",
     database: "vpg76hk5fh2iq1he"
   });
 }
